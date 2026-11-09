@@ -76,8 +76,6 @@ GS - API/
 │   └── .gitkeep
 ├── tests/
 │   └── test_api.py
-├── docs/
-│   └── evidencias/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -97,8 +95,8 @@ Os arquivos locais de banco de dados, cache e ambiente virtual não fazem parte 
 1. Clone o repositório quando estiver publicado e entre na pasta:
 
    ```powershell
-   git clone <URL_DO_REPOSITORIO>
-   cd <PASTA_CLONADA>
+   git clone https://github.com/Johnnyzera10/CyberDesk-API
+   cd CyberDesk-API
    ```
 
    Se estiver trabalhando diretamente na pasta local, apenas abra-a no VS Code.
@@ -216,17 +214,6 @@ python -m pytest tests/test_api.py -v
 As capturas de tela produzidas durante o desenvolvimento são organizadas em `docs/evidencias/`. Elas incluem os endpoints no Swagger, a estrutura da tabela no SQLite, as operações do CRUD e a execução do pytest.
 
 A documentação acadêmica final em Word/PDF, com diagramas e explicação da infraestrutura escolhida, será preparada na etapa de entrega. A infraestrutura de nuvem ainda não está provisionada.
-
-## Próximas etapas
-
-- [x] Desenvolver API REST com FastAPI;
-- [x] Integrar banco SQLite;
-- [x] Implementar e validar CRUD;
-- [x] Concluir oito testes automatizados;
-- [ ] Publicar o código e a documentação no GitHub;
-- [ ] Revisar controles de segurança para exposição externa;
-- [ ] Definir e implementar hospedagem (local ou Azure, conforme requisitos acadêmicos);
-- [ ] Elaborar relatório técnico final com diagramas e evidências.
 
 ## Referências
 
